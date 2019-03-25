@@ -11,6 +11,7 @@ import (
 var PreferencesCurrentUser = "kCFPreferencesCurrentUser"
 var PreferencesCurrentHost = "kCFPreferencesCurrentHost"
 var PreferencesAnyHost = "kCFPreferencesAnyHost"
+var PreferencesAnyApplication = "kCFPreferencesAnyApplication"
 
 func Preferences(key, appID, userName, hostName string) (interface{}, error) {
 	pool := Pool{}
